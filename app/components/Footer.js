@@ -36,21 +36,27 @@ const Footer = () => {
         <div className='mt-6 sm:mt-10 md:mt-20 mb-8 md:mb-10 flex md:items-center justify-between md:flex-row flex-col-reverse gap-6'>
           <p className='text-white/60 text-[16px] leading-[20px] font-normal'>Copyright © 2024 All rights reserved</p>
           <ul className='flex items-center gap-5 sm:gap-[35px] py-6 md:py-0 md:border-y-0 border-y border-[#292424]'>
-            <li><Link href='/privacy-policy' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Privacy Policy</Link></li>
-            <li><Link href='/cookie-policy' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Cookie Policy</Link></li>
-            <li><Link href='/terms of service' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Terms of Service</Link></li>
-            <li>
-            <Link
-  href="/ToS"
-  target="_blank"
-  rel="noopener noreferrer"
+<li><Link
+  href="/ToS#privacy-policy"
+  target="_self"
   className="text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal"
 >
-  Terms of Service2
-</Link>
-
-</li>
-
+  Privacy Policy
+</Link></li>
+<li><Link
+  href="/ToS#cookie-policy"
+  target="_self"
+  className="text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal"
+>
+  Cookie Policy
+</Link></li>
+<li><Link
+  href="/ToS#terms-of-use"
+  target="_self"
+  className="text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal"
+>
+  Terms of Service
+</Link></li>
           </ul>
         </div>
         <Image src='/assets/footer-logo.svg' alt='footer-logo' width={1600} height={454} />
