@@ -1,6 +1,9 @@
 import React from 'react'
 import NumberInput from './NumberInput'
-import AddExercise from './AddExercise';
+import AddExercise from './AddExercise'
+import Link from 'next/link'
+import { IoIosArrowForward } from 'react-icons/io';
+
 
 const ExerciseOneRepMaxes = () => {
     const typesOptions = ['Squat', 'Bench', 'Deadlift'];
@@ -57,7 +60,6 @@ const ExerciseOneRepMaxes = () => {
         </button>
       </Link>
                 </div>
-            <Footer />
         </div>
     )
 }
