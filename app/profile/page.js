@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import AccountInformation from './AccountInformation'
 
+
+
 const Profile = () => {
     return (
         <div>
@@ -27,8 +29,8 @@ const Profile = () => {
                     <AccountInformation/>
                 </div>
             </div>
-            <Footer />
-        </div>
+            </div>
+
     )
 }
 
