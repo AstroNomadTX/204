@@ -34,6 +34,10 @@ const Navbar = () => {
         <ul className='hidden lg:flex items-center gap-7'>
           <li><Link href='/' className='text-[#210F0F] text-[16px] font-normal leading-[20px]'>Home</Link></li>
           <li><Link href='/available-routines' className='text-[#210F0F] text-[16px] font-normal leading-[20px]'>Available Rountines</Link></li>
+          <li><Link href='/create-new-program' className='text-[#210F0F] text-[16px] font-normal leading-[20px]'>CNP</Link></li>
+          <li><Link href='/edit-your-program' className='text-[#210F0F] text-[16px] font-normal leading-[20px]'>EYP</Link></li>
+          <li><Link href='/profile' className='text-[#210F0F] text-[16px] font-normal leading-[20px]'>Profile</Link></li>
+          <li><Link href='/your-active-routine' className='text-[#210F0F] text-[16px] font-normal leading-[20px]'>YAP</Link></li>
         </ul>
         <div className='hidden lg:flex items-center gap-5'>
           <Link href='/login' className='flex items-center gap-2.5 text-black text-[18px] font-normal leading-[21.78px] font-inter'>
@@ -49,7 +53,8 @@ const Navbar = () => {
           <button data-menu-button>
             <Image src='/icons/menu.svg' alt='menu' width={24} height={16} />
           </button>
-        </div>
+          </div>
+             
       </div>
 
       {/* Mobile Menu */}
