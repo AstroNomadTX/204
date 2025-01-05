@@ -4,6 +4,7 @@ import CustomDropdownTwo from '../CustomDropdownTwo';
 import Image from 'next/image';
 import { IoIosArrowForward } from 'react-icons/io';
 import NumberInput from '../NumberInput';
+import Link from 'next/link';
 
 const ViewAvailableRoutine = () => {
     const typesOptions = ['Type 1', 'Type 2', 'Type 3'];
@@ -132,9 +133,9 @@ const ViewAvailableRoutine = () => {
                     </div>
                 </div>
 
-                <button className='mt-6 md:mt-[50px] xl:mt-14 h-[39px] sm:h-[56px] px-4 sm:px-6 rounded-[43px] bg-black text-white text-[14px] sm:text-[18px] leading-[20px] font-medium flex items-center gap-2'>
-                    Browse available routines <IoIosArrowForward className='text-white' />
-                </button>
+                <Link href="/available-routines" className="mt-8 xl:mt-14 h-[39px] sm:h-[56px] px-4 sm:px-6 rounded-[43px] bg-black text-white text-[14px] sm:text-[18px] leading-[20px] font-medium flex items-center gap-2" style={{ maxWidth: 'fit-content' }}>
+                        Browse available routines <IoIosArrowForward className="text-white" /></Link>
+
             </div>
         </div>
     )
