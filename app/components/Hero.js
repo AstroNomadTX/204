@@ -30,7 +30,7 @@ const Hero = () => {
                 Welcome to Sunlifter Club
               </p>
               <h1 className="mb-2.5 sm:mb-3.5 text-white font-workSpace font-bold text-[32px] sm:text-[101px] sm:leading-[112px] tracking-[-0.02em]">
-                Making Body Stronger
+                Making Everybody Stronger
               </h1>
               <p className="text-white text-[14px] sm:text-[18px] font-normal sm:leading-[28px]">
                 Imagine having the freedom to explore weightlifting and exercise programs led by top trainers from around the world, all from the comfort of your own space.
