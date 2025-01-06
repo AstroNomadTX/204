@@ -29,6 +29,7 @@ const Profile = () => {
                     <AccountInformation/>
                 </div>
             </div>
+            <Footer />
             </div>
 
     )

@@ -29,7 +29,7 @@ const Page = () => {
                 Your Active Routine
               </h1>
               <p className="text-[#FFFFFF] text-[14px] sm:text-[18px] sm:leading-[30px] font-normal">
-                "Track your progress, set new goals, and take control of your fitness journey." BLAH BLAH BLAH
+                "Track your progress, set new goals, and take control of your fitness journey."
               </p>
             </div>
           </div>
