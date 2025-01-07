@@ -1,6 +1,7 @@
 import React from 'react'
 import NumberInput from './NumberInput'
 import { IoIosArrowForward } from 'react-icons/io'
+import Link from 'next/link';
 
 const PlateConfiguration = () => {
     return (
@@ -32,10 +33,7 @@ const PlateConfiguration = () => {
                     <NumberInput label="0.25kg" placeholder="0" />
                 </div>
             </div>
-            <div className='mt-6 sm:mt-8 md:mt-10 lg:mt-[50px] flex items-center gap-3 sm:gap-6 md:gap-8 lg:gap-10'>
-                <button className="bg-[#EB3340] w-[133px] sm:w-[199px] h-[39px] sm:h-[56px] rounded-[43px] text-white text-[14px] sm:text-[18px] sm:leading-[20px] font-normal sm:font-medium flex items-center gap-1 justify-center">
-                    View Status <IoIosArrowForward className='text-[16px] sm:text-[18px]' />
-                </button>
+            <div>
                 <button className="bg-black w-[149px] sm:w-[220px] h-[39px] sm:h-[56px] rounded-[43px] text-white text-[14px] sm:text-[18px] sm:leading-[20px] font-normal sm:font-medium flex items-center gap-1 justify-center">
                     Save Changes <IoIosArrowForward className='text-[16px] sm:text-[18px]' />
                 </button>

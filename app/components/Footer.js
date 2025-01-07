@@ -10,9 +10,9 @@ const Footer = () => {
           <div>
             <p className='text-white text-[14px] sm:text-[20px] lg:text-[25px] sm:leading-[36px] font-normal w-full max-w-[849px]'>Imagine having the freedom to explore weightlifting and exercise programs led by top trainers from around the world, all from the comfort of your own space.</p>
             <div className='flex items-center gap-3 mt-5 sm:mt-[37px]'>
-              <Link href='/'><Image src='/icons/facebook.svg' alt='facebook' width={52} height={52} className='sm:w-[52px] sm:h-[53px] w-[40px] h-[40px]' /></Link>
-              <Link href='/'><Image src='/icons/twitter.svg' alt='twitter' width={52} height={52} className='sm:w-[52px] sm:h-[53px] w-[40px] h-[40px]' /></Link>
-              <Link href='/'><Image src='/icons/instagram.svg' alt='instagram' width={52} height={52} className='sm:w-[52px] sm:h-[53px] w-[40px] h-[40px]'/></Link>
+              <Link href='https://www.facebook.com/Sunlifter.Club'><Image src='/icons/facebook.svg' alt='facebook' width={52} height={52} className='sm:w-[52px] sm:h-[53px] w-[40px] h-[40px]' /></Link>
+              <Link href='https://x.com/SunLifter_Club'><Image src='/icons/twitter.svg' alt='twitter' width={52} height={52} className='sm:w-[52px] sm:h-[53px] w-[40px] h-[40px]' /></Link>
+              <Link href='http://www.instagram.com/sunlifter.club'><Image src='/icons/instagram.svg' alt='instagram' width={52} height={52} className='sm:w-[52px] sm:h-[53px] w-[40px] h-[40px]'/></Link>
             </div>
           </div>
           <div className='sm:w-fit w-full flex items-start gap-5 sm:gap-10 lg:gap-[65px] lg:flex-nowrap flex-wrap text-nowrap'>
@@ -21,8 +21,7 @@ const Footer = () => {
               <div className='flex items-start flex-col gap-2.5 sm:gap-3'>
                 <Link href='/' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Home</Link>
                 <Link href='/available-routines' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Available Rountines</Link>
-                <Link href='/create-new-program' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Create Program</Link>
-                <Link href='/dashboard' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Dashboard</Link>
+                <Link href='/profile' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Dashboard</Link>
               </div>
             </div>
             <div className='pr-8 sm:border-t-0 border-t border-[#292424] sm:w-fit w-full pt-[24px] sm:pt-0'>
@@ -37,9 +36,27 @@ const Footer = () => {
         <div className='mt-6 sm:mt-10 md:mt-20 mb-8 md:mb-10 flex md:items-center justify-between md:flex-row flex-col-reverse gap-6'>
           <p className='text-white/60 text-[16px] leading-[20px] font-normal'>Copyright © 2024 All rights reserved</p>
           <ul className='flex items-center gap-5 sm:gap-[35px] py-6 md:py-0 md:border-y-0 border-y border-[#292424]'>
-            <li><Link href='/privacy-policy' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Privacy Policy</Link></li>
-            <li><Link href='/cookie-policy' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Cookie Policy</Link></li>
-            <li><Link href='/terms-of-use' className='text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal'>Terms of use</Link></li>
+<li><Link
+  href="/ToS#privacy-policy"
+  target="_self"
+  className="text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal"
+>
+  Privacy Policy
+</Link></li>
+<li><Link
+  href="/ToS#cookie-policy"
+  target="_self"
+  className="text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal"
+>
+  Cookie Policy
+</Link></li>
+<li><Link
+  href="/ToS#terms-of-use"
+  target="_self"
+  className="text-white/60 text-[14px] sm:text-[16px] sm:leading-[20px] font-normal"
+>
+  Terms of Service
+</Link></li>
           </ul>
         </div>
         <Image src='/assets/footer-logo.svg' alt='footer-logo' width={1600} height={454} />
